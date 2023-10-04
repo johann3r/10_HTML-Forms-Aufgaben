@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Playfair-Rg";
+  src: url(./../fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Playfair-Bd";
+  src: url(./../fonts/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Rg";
+  src: url(./../fonts/Roboto-Regular.ttf);
+}
+
+body {
+  background-color: #808080;
+}
+
+section {
+  padding: 40px;
+  display: flex;
+  height: 100vh;
+}
+
+.image-wrapper {
+  width: 50%;
+  background-image: url(./../images/chanel_shoes.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.form-wrapper {
+  background-color: white;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 100px 24px;
+}
+h1 {
+  font-family: "Playfair-Bd";
+  font-size: 40px;
+  margin-bottom: 32px;
+}
+
+p {
+  font-family: "Playfair-Rg";
+  font-size: 19px;
+  margin-bottom: 64px;
+}
+
+.enter-email {
+  display: block;
+  border: 0;
+  border-bottom: 2px solid black;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 3px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.enter-email::placeholder {
+  color: black;
+  text-align: center;
+}
+
+.primary-button {
+  background-color: #333333;
+  padding: 10px 80px;
+  font-family: "Roboto-Rg";
+  letter-spacing: 3px;
+  color: white;
+  margin-block: 24px;
+  border: 1px solid #333333;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
