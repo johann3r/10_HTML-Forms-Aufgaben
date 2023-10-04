@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  border: 1px solid black;
+  margin: 16px;
+  padding: 16px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: none;
+  background-color: white;
+  padding: 8px 2px;
+  display: inline-block;
+}
+
+.headline {
+  margin-top: -38px;
+}
+
+label {
+  margin: 4px 0;
+}
+.label-left {
+  display: inline-block;
+  width: 200px;
+}
+.prefered-language {
+  display: flex;
+  align-items: center;
+}
+
+.prefered-language-options {
+  margin-left: 5px;
+  margin-right: 8px;
+  width: 80px;
+}
+
+.prefered-language-wrapper {
+  display: flex;
+  align-items: flex-end;
+}
+
+.button {
+  font-size: 14px;
+  padding: 4px 8px;
+}

@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+section {
+  background-color: #212b31;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 24px 16px;
+}
+
+.switch {
+  display: flex;
+  padding-bottom: 8px;
+}
+
+.switch-1 {
+  background-color: #212b31;
+  font-size: 12px;
+  border-radius: 0;
+  padding: 12px;
+  text-decoration: none;
+  color: white;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.switch-1:hover {
+  background-color: rgb(130, 200, 24);
+}
+
+.switch-2 {
+  background-color: rgb(8, 157, 80);
+  font-size: 12px;
+  border-radius: 0;
+  border-left: 2px solid white;
+  padding: 12px;
+  text-decoration: none;
+  color: white;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.switch-2b {
+  background-color: rgb(8, 157, 80);
+  font-size: 12px;
+  border-radius: 0;
+  border-right: 2px solid white;
+  padding: 12px;
+  text-decoration: none;
+  color: white;
+  flex-grow: 1;
+  text-align: center;
+}
+
+div {
+  display: block;
+}
+h1 {
+  font-size: 24px;
+  padding-top: 16px;
+  padding-bottom: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.name-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 16px;
+}
+
+.email {
+  font-size: 10px;
+  padding: 8px;
+  display: block;
+  justify-content: center;
+  background-color: #212b31;
+}
+.password {
+  font-size: 10px;
+  padding: 8px;
+  display: block;
+  justify-content: center;
+  background-color: #212b31;
+}
+
+.name {
+  font-size: 10px;
+  padding: 8px;
+  display: inline-block;
+  justify-content: center;
+  background-color: #212b31;
+}
+
+.forgot-password {
+  font-size: 10px;
+  margin-left: auto;
+  margin-top: 20px;
+
+  display: flex;
+  align-items: flex-end;
+  color: rgb(8, 157, 80);
+}
+
+.button-primary-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.button-primary {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 4px;
+  color: white;
+  background-color: rgb(8, 157, 80);
+  padding: 12px;
+  flex-grow: 1;
+}
